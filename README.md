@@ -67,6 +67,7 @@ A full-stack Lead Management Dashboard built using MERN stack with TypeScript, f
 
 # Project Structure
 
+```bash
 smart-leads-dashboard/
 │
 ├── backend/
@@ -201,7 +202,7 @@ Email:
 sales@test.com
 
 Password:
-123456
+Sales123
 
 ---
 
