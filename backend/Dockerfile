@@ -1,4 +1,4 @@
-FROM node:20
+FROM node:18
 
 WORKDIR /app
 
@@ -10,4 +10,6 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["npm", "run", "dev"]
+RUN npm run build
+
+CMD ["npm", "start"]
